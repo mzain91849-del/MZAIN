@@ -1,0 +1,679 @@
+{
+  "categories": [
+    {
+      "id": "cat-burgers",
+      "name": "Burgers",
+      "slug": "burgers",
+      "description": "Smashed beef and crispy fillet burgers on toasted brioche buns.",
+      "sortOrder": 1
+    },
+    {
+      "id": "cat-pizza",
+      "name": "Pizza",
+      "slug": "pizza",
+      "description": "Stone-baked hand-stretched pizzas with rich mozzarella.",
+      "sortOrder": 2
+    },
+    {
+      "id": "cat-chicken",
+      "name": "Fried Chicken",
+      "slug": "fried-chicken",
+      "description": "Golden pressure-fried chicken pieces and spicy wings.",
+      "sortOrder": 3
+    },
+    {
+      "id": "cat-sides",
+      "name": "Fries & Sides",
+      "slug": "fries-sides",
+      "description": "Crinkle-cut fries, loaded cheese bowls, and savoury bites.",
+      "sortOrder": 4
+    },
+    {
+      "id": "cat-wraps",
+      "name": "Sandwiches & Wraps",
+      "slug": "sandwiches-wraps",
+      "description": "Grilled tortilla wraps and toasted club sandwiches.",
+      "sortOrder": 5
+    },
+    {
+      "id": "cat-combos",
+      "name": "Combo Deals",
+      "slug": "combo-deals",
+      "description": "Value meal bundles crafted for solo cravings and group feasts.",
+      "sortOrder": 6
+    },
+    {
+      "id": "cat-drinks",
+      "name": "Drinks",
+      "slug": "drinks",
+      "description": "Chilled sodas,shakes, and sparkling refreshers.",
+      "sortOrder": 7
+    },
+    {
+      "id": "cat-desserts",
+      "name": "Desserts",
+      "slug": "desserts",
+      "description": "Warm molten lava cakes and sweet finishes.",
+      "sortOrder": 8
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-double-smash",
+      "name": "Zain Signature Double Smash Burger (Demo)",
+      "slug": "zain-signature-double-smash-burger",
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "description": "Demo Menu Item: Two seared beef patties with double melted cheddar, house smoky burger sauce, caramelized onions, and dill pickles on a toasted brioche bun.",
+      "price": 1150,
+      "salePrice": 990,
+      "imageKey": "smash_burger",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 28,
+      "prepEstimateMinutes": 15,
+      "sizes": [
+        {
+          "label": "Double Patty (Standard)",
+          "priceDelta": 0
+        },
+        {
+          "label": "Triple Smash Stack",
+          "priceDelta": 320
+        }
+      ],
+      "spiceLevels": [
+        "Mild",
+        "Medium",
+        "Fiery Hot"
+      ],
+      "addons": [
+        {
+          "id": "add-cheese",
+          "name": "Extra Cheddar Slice",
+          "price": 120
+        },
+        {
+          "id": "add-jalapenos",
+          "name": "Pickled Jalapeños",
+          "price": 80
+        },
+        {
+          "id": "add-rings",
+          "name": "2x Crispy Onion Rings",
+          "price": 150
+        }
+      ],
+      "isFeatured": true,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-zinger-crunch",
+      "name": "Golden Crunch Fillet Burger (Demo)",
+      "slug": "golden-crunch-fillet-burger",
+      "categoryId": "cat-burgers",
+      "categoryName": "Burgers",
+      "description": "Demo Menu Item: Crispy seasoned whole chicken thigh fillet, shredded iceberg lettuce, ripe tomato slices, and creamy garlic pepper mayo in a sesame seed bun.",
+      "price": 850,
+      "salePrice": null,
+      "imageKey": "crispy_chicken",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 35,
+      "prepEstimateMinutes": 12,
+      "sizes": [
+        {
+          "label": "Single Fillet",
+          "priceDelta": 0
+        },
+        {
+          "label": "Mighty Double Fillet",
+          "priceDelta": 350
+        }
+      ],
+      "spiceLevels": [
+        "Regular",
+        "Spicy Zinger"
+      ],
+      "addons": [
+        {
+          "id": "add-cheese-2",
+          "name": "Cheese Slice",
+          "price": 120
+        },
+        {
+          "id": "add-coleslaw",
+          "name": "Creamy Coleslaw Scoop",
+          "price": 100
+        }
+      ],
+      "isFeatured": true,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-pepperoni-pizza",
+      "name": "Stone-Oven Beef Pepperoni Pizza (Demo)",
+      "slug": "stone-oven-beef-pepperoni-pizza",
+      "categoryId": "cat-pizza",
+      "categoryName": "Pizza",
+      "description": "Demo Menu Item: Hand-stretched artisan dough topped with crushed tomato sauce, whole-milk mozzarella, smoky beef pepperoni slices, and fresh basil.",
+      "price": 1450,
+      "salePrice": 1290,
+      "imageKey": "woodfired_pizza",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 18,
+      "prepEstimateMinutes": 20,
+      "sizes": [
+        {
+          "label": "10-inch Medium",
+          "priceDelta": 0
+        },
+        {
+          "label": "13-inch Large",
+          "priceDelta": 450
+        },
+        {
+          "label": "16-inch Family XL",
+          "priceDelta": 850
+        }
+      ],
+      "spiceLevels": [
+        "Classic Mild",
+        "Chili Flake Kick"
+      ],
+      "addons": [
+        {
+          "id": "add-extra-mozz",
+          "name": "Extra Mozzarella Crust",
+          "price": 250
+        },
+        {
+          "id": "add-olives",
+          "name": "Black Olives & Mushrooms",
+          "price": 160
+        }
+      ],
+      "isFeatured": true,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-loaded-fries",
+      "name": "Cheddar Drenched Crinkle Fries (Demo)",
+      "slug": "cheddar-drenched-crinkle-fries",
+      "categoryId": "cat-sides",
+      "categoryName": "Fries & Sides",
+      "description": "Demo Menu Item: Golden crinkle-cut potatoes tossed in sea salt and herb seasoning, generously drizzled with warm aged cheddar cheese sauce.",
+      "price": 580,
+      "salePrice": null,
+      "imageKey": "loaded_fries",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 42,
+      "prepEstimateMinutes": 10,
+      "sizes": [
+        {
+          "label": "Regular Bowl",
+          "priceDelta": 0
+        },
+        {
+          "label": "Sharing Platter",
+          "priceDelta": 240
+        }
+      ],
+      "spiceLevels": [
+        "Mild Sea Salt",
+        "Peri-Peri Dusted"
+      ],
+      "addons": [
+        {
+          "id": "add-dip",
+          "name": "Smoky Chipotle Dip",
+          "price": 90
+        },
+        {
+          "id": "add-chicken-bits",
+          "name": "Crispy Chicken Bites Topping",
+          "price": 220
+        }
+      ],
+      "isFeatured": true,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-crispy-bucket",
+      "name": "4-Piece Crispy Fried Chicken Basket (Demo)",
+      "slug": "4-piece-crispy-fried-chicken-basket",
+      "categoryId": "cat-chicken",
+      "categoryName": "Fried Chicken",
+      "description": "Demo Menu Item: Four pieces of golden-fried bone-in chicken marinated in house spices, served with a warm dinner roll and garlic mayo dip.",
+      "price": 1120,
+      "salePrice": 980,
+      "imageKey": "crispy_chicken",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 20,
+      "prepEstimateMinutes": 18,
+      "sizes": [
+        {
+          "label": "4 Pieces + 1 Dip",
+          "priceDelta": 0
+        },
+        {
+          "label": "8 Pieces Family Bucket + 3 Dips",
+          "priceDelta": 890
+        }
+      ],
+      "spiceLevels": [
+        "Original Golden",
+        "Hot & Spicy"
+      ],
+      "addons": [
+        {
+          "id": "add-bun",
+          "name": "Extra Brioche Roll",
+          "price": 80
+        },
+        {
+          "id": "add-garlic-dip",
+          "name": "Extra Garlic Mayo Dip",
+          "price": 90
+        }
+      ],
+      "isFeatured": false,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-chipotle-wrap",
+      "name": "Smoky Chipotle Chicken Tortilla Wrap (Demo)",
+      "slug": "smoky-chipotle-chicken-tortilla-wrap",
+      "categoryId": "cat-wraps",
+      "categoryName": "Sandwiches & Wraps",
+      "description": "Demo Menu Item: Crispy chicken strips, cheddar cheese, crisp lettuce, roasted corn salsa, and smoky chipotle sauce wrapped in a grilled flour tortilla.",
+      "price": 690,
+      "salePrice": null,
+      "imageKey": "crispy_chicken",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 25,
+      "prepEstimateMinutes": 12,
+      "sizes": [
+        {
+          "label": "Single Wrap",
+          "priceDelta": 0
+        },
+        {
+          "label": "Wrap + Regular Fries & Drink",
+          "priceDelta": 340
+        }
+      ],
+      "spiceLevels": [
+        "Mild",
+        "Medium",
+        "Fiery Hot"
+      ],
+      "addons": [
+        {
+          "id": "add-wrap-cheese",
+          "name": "Extra Melted Cheese",
+          "price": 110
+        }
+      ],
+      "isFeatured": false,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-squad-combo",
+      "name": "Zain Matchday Feast Combo (Demo)",
+      "slug": "zain-matchday-feast-combo",
+      "categoryId": "cat-combos",
+      "categoryName": "Combo Deals",
+      "description": "Demo Menu Item: 2 Signature Double Smash Burgers, 1 Medium 10-inch Pepperoni Pizza, 1 Sharing Cheddar Crinkle Fries, and 1.5L Chilled Drink.",
+      "price": 3450,
+      "salePrice": 2890,
+      "imageKey": "hero_burger",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 14,
+      "prepEstimateMinutes": 25,
+      "sizes": [
+        {
+          "label": "Standard Feast (Serves 3-4)",
+          "priceDelta": 0
+        },
+        {
+          "label": "Upgrade Pizza to 13-inch Large",
+          "priceDelta": 400
+        }
+      ],
+      "spiceLevels": [
+        "Mild Mix",
+        "Spicy Mix"
+      ],
+      "addons": [
+        {
+          "id": "add-dip-pack",
+          "name": "Trio Dip Pack (Garlic, Chipotle, Honey Mustard)",
+          "price": 220
+        }
+      ],
+      "isFeatured": true,
+      "isCombo": true,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-solo-box",
+      "name": "Solo Smash & Crunch Box (Demo)",
+      "slug": "solo-smash-crunch-box",
+      "categoryId": "cat-combos",
+      "categoryName": "Combo Deals",
+      "description": "Demo Menu Item: 1 Double Smash Burger, 1 Crispy Chicken Piece, Regular Crinkle Fries, and a 345ml Chilled Cola.",
+      "price": 1550,
+      "salePrice": 1350,
+      "imageKey": "hero_burger",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 22,
+      "prepEstimateMinutes": 15,
+      "sizes": [
+        {
+          "label": "Regular Box",
+          "priceDelta": 0
+        },
+        {
+          "label": "Upsize Fries & Drink",
+          "priceDelta": 180
+        }
+      ],
+      "spiceLevels": [
+        "Mild",
+        "Spicy"
+      ],
+      "addons": [
+        {
+          "id": "add-solo-cheese",
+          "name": "Cheddar Sauce on Fries",
+          "price": 140
+        }
+      ],
+      "isFeatured": true,
+      "isCombo": true,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-craft-cola",
+      "name": "Chilled Sparkling Cola & Lime (Demo)",
+      "slug": "chilled-sparkling-cola-lime",
+      "categoryId": "cat-drinks",
+      "categoryName": "Drinks",
+      "description": "Demo Menu Item: Ice-cold carbonated cola served with fresh lime wedge.",
+      "price": 220,
+      "salePrice": null,
+      "imageKey": "loaded_fries",
+      "isAvailable": true,
+      "trackStock": true,
+      "stockQuantity": 60,
+      "prepEstimateMinutes": 3,
+      "sizes": [
+        {
+          "label": "345ml Cup",
+          "priceDelta": 0
+        },
+        {
+          "label": "500ml Large Cup",
+          "priceDelta": 80
+        },
+        {
+          "label": "1.5L Family Bottle",
+          "priceDelta": 180
+        }
+      ],
+      "spiceLevels": [],
+      "addons": [],
+      "isFeatured": false,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "prod-lava-cake",
+      "name": "Warm Belgian Chocolate Lava Cake (Demo)",
+      "slug": "warm-belgian-chocolate-lava-cake",
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "description": "Demo Menu Item: Rich dark chocolate sponge cake with a warm molten fudge center.",
+      "price": 520,
+      "salePrice": null,
+      "imageKey": "smash_burger",
+      "isAvailable": false,
+      "trackStock": true,
+      "stockQuantity": 0,
+      "prepEstimateMinutes": 10,
+      "sizes": [
+        {
+          "label": "Single Serving",
+          "priceDelta": 0
+        }
+      ],
+      "spiceLevels": [],
+      "addons": [],
+      "isFeatured": false,
+      "isCombo": false,
+      "isDemoData": true,
+      "createdAt": "2026-10-13T03:48:32.066Z",
+      "updatedAt": "2026-10-13T03:48:32.066Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "coup-zain15",
+      "code": "ZAIN15",
+      "description": "15% off on orders of PKR 1,500 or above (Demo Promo)",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderAmount": 1500,
+      "maxUses": 100,
+      "usedCount": 12,
+      "validFrom": "2025-01-01T00:00:00.000Z",
+      "validUntil": "2028-12-31T23:59:59.000Z",
+      "isActive": true
+    },
+    {
+      "id": "coup-welcome200",
+      "code": "WELCOME200",
+      "description": "Flat PKR 200 off on orders of PKR 1,000 or above (Demo Promo)",
+      "discountType": "fixed",
+      "discountValue": 200,
+      "minOrderAmount": 1000,
+      "maxUses": 50,
+      "usedCount": 5,
+      "validFrom": "2025-01-01T00:00:00.000Z",
+      "validUntil": "2028-12-31T23:59:59.000Z",
+      "isActive": true
+    }
+  ],
+  "settings": {
+    "storeName": "Zain Fast Food",
+    "tagline": "Fresh. Hot. Delivered.",
+    "deliveryFee": 180,
+    "freeDeliveryThreshold": 2500,
+    "minOrderAmount": 600,
+    "phone": "+92 300 0000000 (Demo Support Line)",
+    "email": "orders@zainfastfood.demo",
+    "address": "Plot 14-B, Commercial Kitchen District, Lahore (Demo Address)",
+    "openingHours": "Daily: 12:00 PM – 2:00 AM",
+    "deliveryCoverage": "35–45 mins within 8 km radius (Gulberg, DHA, Model Town, Johar Town — Demo Zones)",
+    "noticeBanner": "Demo Store Environment: Sample prices in PKR. Free delivery on orders over PKR 2,500 · Use code ZAIN15 for 15% off."
+  },
+  "users": [
+    {
+      "id": "user-admin-1",
+      "name": "Zain Store Administrator",
+      "email": "admin@zainfastfood.demo",
+      "phone": "0300-1112223",
+      "defaultAddress": "Zain HQ, Plot 14-B, Lahore",
+      "role": "admin",
+      "salt": "zain_admin_salt_v1",
+      "passwordHash": "5add32a10e3ac3668f55c94abb32e8b5278c18b5ccba00509e24411f64369316eb3e1099731f898bddda1cb98f4ad77a1d40a6faae6c2756399f21ed533c5b60",
+      "createdAt": "2026-10-13T03:48:32.066Z"
+    },
+    {
+      "id": "user-cust-1",
+      "name": "Bilal Ahmed (Demo Customer)",
+      "email": "customer@zainfastfood.demo",
+      "phone": "0321-4567890",
+      "defaultAddress": "House 42, Street 7, Block K, Gulberg II, Lahore",
+      "role": "customer",
+      "salt": "zain_cust_salt_v1",
+      "passwordHash": "d226031436cdfceba5f1338c566c79ef6aba168746345168975e6d9c6a997a28ac31885b520d79f73ed1b302ba9c99e4db35f4769f9f41a75a869e8bdd020ebd",
+      "createdAt": "2026-10-13T03:48:32.066Z"
+    }
+  ],
+  "sessions": [],
+  "orders": [
+    {
+      "id": "ord-demo-1041",
+      "orderNumber": "ZFF-1041",
+      "userId": "user-cust-1",
+      "customerName": "Bilal Ahmed (Demo Customer)",
+      "customerPhone": "0321-4567890",
+      "customerEmail": "customer@zainfastfood.demo",
+      "deliveryAddress": "House 42, Street 7, Block K, Gulberg II, Lahore",
+      "postalCode": "54660",
+      "deliveryNotes": "Please ring the main gate bell once.",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "productId": "prod-double-smash",
+          "productName": "Zain Signature Double Smash Burger (Demo)",
+          "unitPrice": 1110,
+          "quantity": 2,
+          "selectedSize": "Double Patty (Standard)",
+          "selectedSpice": "Medium",
+          "selectedAddons": [
+            {
+              "name": "Extra Cheddar Slice",
+              "price": 120
+            }
+          ],
+          "lineTotal": 2220
+        },
+        {
+          "productId": "prod-loaded-fries",
+          "productName": "Cheddar Drenched Crinkle Fries (Demo)",
+          "unitPrice": 580,
+          "quantity": 1,
+          "selectedSize": "Regular Bowl",
+          "selectedSpice": "Peri-Peri Dusted",
+          "selectedAddons": [],
+          "lineTotal": 580
+        }
+      ],
+      "subtotal": 2800,
+      "discountAmount": 420,
+      "couponCode": "ZAIN15",
+      "deliveryFee": 180,
+      "total": 2560,
+      "status": "Out for Delivery",
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-13T03:16:32.198Z",
+          "note": "Order placed via web storefront"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-13T03:20:32.198Z",
+          "note": "Kitchen accepted order"
+        },
+        {
+          "status": "Preparing",
+          "timestamp": "2026-10-13T03:26:32.198Z",
+          "note": "Grilling fresh patties"
+        },
+        {
+          "status": "Ready for Dispatch",
+          "timestamp": "2026-10-13T03:36:32.198Z",
+          "note": "Packed in thermal bag"
+        },
+        {
+          "status": "Out for Delivery",
+          "timestamp": "2026-10-13T03:40:32.198Z",
+          "note": "Rider dispatched to Gulberg II"
+        }
+      ],
+      "createdAt": "2026-10-13T03:16:32.198Z",
+      "updatedAt": "2026-10-13T03:40:32.198Z"
+    },
+    {
+      "id": "ord-demo-1038",
+      "orderNumber": "ZFF-1038",
+      "userId": "user-cust-1",
+      "customerName": "Bilal Ahmed (Demo Customer)",
+      "customerPhone": "0321-4567890",
+      "customerEmail": "customer@zainfastfood.demo",
+      "deliveryAddress": "House 42, Street 7, Block K, Gulberg II, Lahore",
+      "postalCode": "54660",
+      "deliveryNotes": "",
+      "paymentMethod": "COD",
+      "items": [
+        {
+          "productId": "prod-solo-box",
+          "productName": "Solo Smash & Crunch Box (Demo)",
+          "unitPrice": 1350,
+          "quantity": 1,
+          "selectedSize": "Regular Box",
+          "selectedSpice": "Spicy",
+          "selectedAddons": [],
+          "lineTotal": 1350
+        }
+      ],
+      "subtotal": 1350,
+      "discountAmount": 200,
+      "couponCode": "WELCOME200",
+      "deliveryFee": 180,
+      "total": 1330,
+      "status": "Delivered",
+      "statusHistory": [
+        {
+          "status": "Pending",
+          "timestamp": "2026-10-12T03:48:32.198Z"
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-10-12T03:55:12.198Z"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2026-10-12T04:28:32.198Z",
+          "note": "Delivered and Cash on Delivery collected"
+        }
+      ],
+      "createdAt": "2026-10-12T03:48:32.198Z",
+      "updatedAt": "2026-10-12T04:28:32.198Z"
+    }
+  ]
+}
